@@ -1,0 +1,51 @@
+.footer{
+    background: rgba(10, 8, 8, 1);
+    margin-top: 100px;
+    padding: 50px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.footer-info{
+    max-width: 210px;
+}
+.footer-section{
+    margin-right: 80px;
+    margin-top: 100px;
+}
+.footer-link{
+    color: white;
+}
+.form-input{
+    padding: 10px 20px;
+    margin: 0;
+    background-color: transparent;
+    border: 2px solid rgba(214, 67, 116, 1);
+    margin-right: -4px;
+    border-radius: 5px;
+}
+
+.footer-socials{
+    display: flex;
+    align-items: center;
+}
+
+.footer-socials-item{
+    margin-right: 10px;
+    &:nth-child(4){
+        margin-right: 0;
+    }
+}
+
+.footer-pay-list{
+    display: flex;
+    align-items: center;
+}
+.footer-pay-item{
+    margin-right: 10px;
+    &:nth-child(3){
+        margin-right: 0;
+    }
+}
